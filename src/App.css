@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.nonedisplay{
+    display: none;
+}
+.blockdisplay{
+    display: block;
+}
+.topleft{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.bg1{
+    height:80px;
+    background-color: black !important;
+}
+.rhap_time, .rhap_total-time{
+    color: white !important;
+}
+/* .rhap_play-pause-button{
+    font-size: 70px !important;
+    width: fit-content !important;
+    height: fit-content !important;
+} */
+.rhap_container{
+    padding-bottom:10px !important;
+}
